@@ -66,7 +66,6 @@ func passwordFromLine(line string) (password, error) {
 }
 
 func parsePolicyData(policyStr string) policyData {
-	fmt.Println(policyStr)
 	policySplit := strings.Split(policyStr, " ")
 	values, letter := policySplit[0], policySplit[1]
 
